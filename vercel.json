@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/return-to-her",
+      "destination": "https://return-to-her-1.vercel.app/"
+    },
+    {
+      "source": "/return-to-her/:path*",
+      "destination": "https://return-to-her-1.vercel.app/:path*"
+    }
+  ]
+}
