@@ -7,6 +7,14 @@
     {
       "source": "/return-to-her/:path*",
       "destination": "https://return-to-her-1.vercel.app/:path*"
+    },
+    {
+      "source": "/_next/:path*",
+      "destination": "https://return-to-her-1.vercel.app/_next/:path*"
+    },
+    {
+      "source": "/images/:path*",
+      "destination": "https://return-to-her-1.vercel.app/images/:path*"
     }
   ]
 }
